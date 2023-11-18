@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 1</title>
+    <style>
+        *{
+            color: darkblue;
+            overflow-x: hidden;
+            /* overflow-y: hidden; */
+        }
+        body{
+            background-color: black ;
+        }
+        .navbar{
+            display: flex;
+            width: 100%;
+        }
+        .navbar p{
+            position: absolute;
+            left:  10%;
+            font-size: 20px;
+        }
+        #right{
+            padding-left: 50%;  
+            color: red;  
+        }
+        .main-content{
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            right: 5%;
+            max-width: 90%;
+            /* max-height: 60%; */
+        }
+        .main-content video{
+            height: auto;
+            width: 100%;
+            height: 30%;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p>PROJECT 1</p>
+        <P id="right">FILE TYPE: SECRET</P>
+    </div>
+     
+    <div class="main-content">
+        <video controls src="./vid.mp4">
+        <source src="./vid.webM"></video>
+    </div>
+</body>
+</html>
